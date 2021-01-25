@@ -1,6 +1,6 @@
 # Chance Koogler
 # Exercises 2: Question 1
-# Ran each line in the Python Interactive Terminal and copied and pasted my code to this .py file.
+
 import arcpy
 
 feature_class = "c:/Users/Chance/Documents/ArcGIS/OSU_data/buildings.shp"
@@ -15,7 +15,7 @@ for field in fields:
     print("Field precision:     {}".format(field.precision))
 
 # I know that docstrings are not best practice for comments but 
-# wanted to save time by not commenting out every row. Thanks
+# wanted to save time by not commenting out every row.
 '''
 Field name:       FID
 Field type:      OID
